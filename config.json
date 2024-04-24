@@ -1,0 +1,18 @@
+{
+    "mail_sender": "sender@mail.com",
+    "mail_passwd": "password",
+    "mail_smtp_domain": "smtp.email.com",
+    "mail_smtp_port": 25,
+    "mail_recver": ["receiver@email.com"],
+    "mail_subject": "Windows Login Notify",
+    "mail_content": [
+        "Windows于 %now% 远程登录到 %host_info%",
+        "⚠ 如果不是本人登录, 请尽快检查登录来源!",
+        "",
+        "************ Login History *************",
+        "%login_history%",
+        "****************************************",
+        "",
+        "Windows Remote Desktop Login Notify"
+    ]
+}
